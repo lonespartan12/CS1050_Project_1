@@ -1,3 +1,11 @@
+/*
+Program name: Program #1: Numbers
+Description: calculate the sum and the product of two numbers that are input by the user.
+Author: Christian Mudd
+Date: 07/09/2020
+Version: 1.0
+*/
+
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
@@ -17,5 +25,7 @@ class Main {
     System.out.println("Sum = " + sum);
     // product output
     System.out.println("Product = " + product);
+
+    scan.close();
   }
 }
